@@ -8,4 +8,5 @@ g++ nivel2_cliente.cpp -o cliente
 ./servidor_conc
 ## Terminales 2, 3, 4...
 ./cliente ClienteA
+
 ./cliente ClienteB
