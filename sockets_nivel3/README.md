@@ -27,3 +27,15 @@ Respuesta esperada: TRANSFERENCIA_OK 1001 4800
 
 * salir – Termina el cliente.
 
+# Prueba de concurrencia
+Abre dos o más terminales de cliente y realiza operaciones simultáneas, por ejemplo:
+
+Cliente 1: TRANSFERIR 1001 1002 300
+
+Cliente 2: TRANSFERIR 1001 1003 400
+
+Observa cómo el servidor gestiona las transferencias de forma sincronizada, evitando saldos negativos o condiciones de carrera.
+
+## Detener el servidor
+Presiona Ctrl+C en la terminal del servidor.
+
