@@ -17,13 +17,13 @@ El cliente mostrará un prompt > donde puedes ingresar comandos.
 
 Comandos disponibles:
 
-SALDO <id_cuenta> – Consulta el saldo de una cuenta.
+* SALDO <id_cuenta> – Consulta el saldo de una cuenta.
 Ejemplo: SALDO 1001
 Respuesta esperada: SALDO 1001 5000
 
-TRANSFERIR <origen> <destino> <monto> – Transfiere dinero entre cuentas.
+* TRANSFERIR <origen> <destino> <monto> – Transfiere dinero entre cuentas.
 Ejemplo: TRANSFERIR 1001 1002 200
 Respuesta esperada: TRANSFERENCIA_OK 1001 4800
 
-salir – Termina el cliente.
+* salir – Termina el cliente.
 
